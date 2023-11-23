@@ -1,7 +1,6 @@
 <script>
 export default {
-  name: 'app',
-  mounted() {}
+  name: 'app'
 }
 </script>
 
@@ -9,5 +8,7 @@ export default {
   <router-view></router-view>
 </template>
 
-<style scoped>
+<style lang="scss">
+@import './assets/style/reset.css';
+@import './assets/style/index.scss';
 </style>

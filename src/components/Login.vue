@@ -4,15 +4,6 @@ export default {
   name: 'login',
   components: { Welcome },
   mounted() {
-    // this.$request({
-    //   mothod: 'get',
-    //   url: '/login',
-    //   data: {
-    //     name: 'jack'
-    //   }
-    // }).then((res) => {
-    //   console.log(res)
-    // })
     this.$request.get('/login', { name: 'jack' }).then((res) => {
       console.log(res)
     })
